@@ -1588,22 +1588,22 @@ li.MuiListItem-root:nth-child(1) > a:nth-child(1) {
    ============================================================ */
 
 /* --- 1) No liquid glass highlights --- */
-*, *::backdrop, *::after, .paper-icon-button-light::before, .mdl-slider::-moz-range-thumb { box-shadow: none !important; }
+/* *, *::backdrop, *::after, .paper-icon-button-light::before, .mdl-slider::-moz-range-thumb { box-shadow: none !important; }
 .paper-icon-button-light::before { backdrop-filter: blur(10px); }
 
 /* --- 2) High contrast --- */
-.cardOverlayButtonIcon-hover { background: rgba(0,0,0,0.7) !important; }
+/* .cardOverlayButtonIcon-hover { background: rgba(0,0,0,0.7) !important; }
 .dialog { background-color: #101010ab; backdrop-filter: invert(1) blur(10px) !important; }
-[dir="ltr"] .navMenuOption { background: rgba(240,248,255,0.22) !important; }
+[dir="ltr"] .navMenuOption { background: rgba(240,248,255,0.22) !important; } */
 
 /* --- 3) Card zoom on hover --- */
-.card.overflowBackdropCard.card-hoverable.card-withuserdata:hover .cardImageContainer {
+/* .card.overflowBackdropCard.card-hoverable.card-withuserdata:hover .cardImageContainer {
   animation: bg-scale 0.25s 1 forwards !important;
   will-change: background-size;
 }
 
 /* --- 4) Change accent (example: pink) --- */
-:root { --accent: #ff9ec4; --accent-strong: #ffb3d1; --accent-soft: rgba(255,158,196,0.22); --accent-glow: rgba(255,158,196,0.35); }
+/* :root { --accent: #ff9ec4; --accent-strong: #ffb3d1; --accent-soft: rgba(255,158,196,0.22); --accent-glow: rgba(255,158,196,0.35); } */ */ */
 
 /* --- 5) Floating header --- */
 .skinHeader {
